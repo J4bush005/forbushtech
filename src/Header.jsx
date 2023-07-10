@@ -29,70 +29,55 @@ function Header() {
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Offcanvas
+              Forbush Technologies
             </h5>
             <button
+            id="close"
               type="button"
               class="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <div  class="offcanvas-body">
+            <ul  class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
+                <a id="body-text" class="nav-link active" aria-current="page" href="#">
+                  Contact
                 </a>
               </li>
               <li class="nav-item dropdown">
                 <a
+                  id="body-text"
                   class="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Projects
                 </a>
-                <ul class="dropdown-menu">
+                <ul id="background" class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Action
+                    <a id="body-text" class="dropdown-item" href="#">
+                      Web Pages
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
+                    <a id="body-text" class="dropdown-item" href="#">
+                      Games
                     </a>
                   </li>
                   <li>
-                    <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
+                    <a id="body-text" class="dropdown-item" href="#">
+                      Misc.
                     </a>
                   </li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex mt-3" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </div>

@@ -32,4 +32,26 @@ body {
   height: 50px;
 }
 
+#offcanvasNavbar{
+  background-color: black;
+  color: #be9e44;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+#body-text{
+  color: #be9e44;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+#background{
+  background-color: black;
+}
+
+#close{
+  color: #be9e44;
+  background-color: #be9e44;
+}
+
 
