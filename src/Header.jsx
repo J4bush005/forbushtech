@@ -29,7 +29,7 @@ function Header() {
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Forbush Technologies
+              Forbush Technologiessss
             </h5>
             <button
             id="close"
