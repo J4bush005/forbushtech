@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "./Logo.svg";
-import Color from "./components/images/Color logo - no background.png";
-import "./index.css";
+import Color from "./images/Color logo - no background.png";
+import "../index.css";
 
 function Header() {
   return (
+    <div className="backs">
     <nav id="header" class="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
@@ -82,6 +82,7 @@ function Header() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
 
