@@ -22,39 +22,62 @@ function Particle() {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-         background: {
-        color: "#000",
-    },
-    fullScreen: {
-      enable: true,
-      zIndex: -1
-    },
-    particles: {
-        number: {
-            value: 100,
+        background: {
+          color: "#000",
         },
-        move: {
+        fpsLimit: 120,
+        interactivity: {
+          events: {
+            onClick: {
+              enable: true,
+              mode: "push",
+            },
+            onHover: {
+              enable: true,
+              mode: "repulse",
+            },
+            resize: true,
+          },
+          modes: {
+            push: {
+              quantity: 4,
+            },
+            repulse: {
+              distance: 100,
+              duration: 0.9,
+            },
+          },
+        },
+        fullScreen: {
+          enable: true,
+          zIndex: -1,
+        },
+        particles: {
+          number: {
+            value: 100,
+          },
+          move: {
             direction: "none",
             enable: true,
             outModes: {
-                default: "out",
+              default: "out",
             },
             random: true,
             speed: 0.5,
             straight: false,
-        },
-        opacity: {
+          },
+          opacity: {
             animation: {
-                enable: true,
-                speed: 1,
-                sync: false,
+              enable: true,
+              speed: 1,
+              sync: false,
             },
             value: { min: 0, max: 1 },
-        },
-        size: {
+          },
+          size: {
             value: { min: 1, max: 3 },
+          },
         },
-    },
       }}
     />
   );

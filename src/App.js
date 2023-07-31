@@ -16,14 +16,12 @@ function App() {
  `
   return (
     <>
-    
     <Container>
     <Particle/>
-    <Open />
-    <Who />
-    <Mission />
-    <Projects />
-    <Contact />
+    <Routes>
+    <Route index element={<Open />}/>
+    <Route path="/Who" element={<Who />}/>
+    </Routes>
     </Container>
     </>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
+import { motion } from "framer-motion";
 import Header from "./Header";
 
 const Section = styled.div`
@@ -9,6 +10,12 @@ const Section = styled.div`
 
 const Who = () => {
   return (
+    <motion.div
+    initial={{opacity: 0}}
+    whileInView={{opacity: 1}}
+    transition={{duration: 1, delay: 2}}
+    viewport={{once: true}}
+    >
     <Section>
       <Header />
       <section id="open-heading">
@@ -19,6 +26,7 @@ const Who = () => {
       </div>
       </section>
     </Section>
+    </motion.div>
   );
 };
 
