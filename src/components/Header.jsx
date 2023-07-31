@@ -4,7 +4,7 @@ import "../index.css";
 
 function Header() {
   return (
-    <div className="backs">
+    <div>
     <nav id="header" class="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">

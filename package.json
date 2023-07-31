@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@react-spring/parallax": "^9.7.3",
+    "@react-spring/web": "^9.7.3",
     "@react-three/drei": "^9.78.1",
     "@react-three/fiber": "^8.13.4",
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,11 +19,15 @@
     "react-media": "^1.10.0",
     "react-router-dom": "^6.14.1",
     "react-scripts": "^5.0.1",
+    "react-spring": "^9.7.2",
     "react-tilt": "^1.0.2",
+    "react-tsparticles": "^2.11.0",
     "react-vertical-timeline-component": "^3.6.0",
     "styled-component": "^2.8.0",
     "styled-components": "^6.0.4",
     "three": "^0.154.0",
+    "tsparticles": "^2.11.1",
+    "tsparticles-engine": "^2.11.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

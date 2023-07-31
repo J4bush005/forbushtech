@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import "./index.css";
 import styled from 'styled-components';
+import {Parallax, ParallaxLayer} from 'react-spring';
+import Particle from './components/Particle';
 function App() {
 
  const Container = styled.div`
@@ -21,7 +23,9 @@ function App() {
  `
   return (
     <>
+    <Particle/>
     <Container>
+    
     <Who />
     <Mission />
     <Projects />
