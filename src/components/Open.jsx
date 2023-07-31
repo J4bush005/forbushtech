@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { styled } from "styled-components";
 import Logo from "../Logo.svg";
+import { Link } from "react-router-dom";
 
 
 const Section = styled.div`
@@ -24,13 +25,19 @@ function Open() {
         return () => window.removeEventListener('scroll', handleScroll);
     },[])
   return (
+   
     <Section>
       <section id="open-logo" style={{transform: `translateY(${ offsetY * -0.7}px)`}}>
+      <Link to={"/Who"}>
         <div className="row">
+         
           <img src={Logo} alt=""/>
+         
         </div>
+         </Link>
       </section>
     </Section>
+  
   );
 }
 
