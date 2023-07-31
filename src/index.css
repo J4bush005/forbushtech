@@ -12,7 +12,9 @@ body {
   background-position: center;
 }
 
-
+::-webkit-scrollbar{
+  display: none;
+ }
 
 /*HEADER*/
 
@@ -56,6 +58,12 @@ body {
 #close{
   color: #be9e44;
   background-color: #be9e44;
+}
+
+/*Open*/
+
+#open-logo{
+  width: 300px;
 }
 
 /*WHO*/
