@@ -5,8 +5,6 @@ import Header from "./Header";
 import Mission from "./Mission";
 import Contact from "./Contact";
 import LoadingParticle from "./LoadingParticle";
-import Open from "./Open";
-import App from "../App";
 import Particle from "./Particle";
 
 const Section = styled.div`
