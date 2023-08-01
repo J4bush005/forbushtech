@@ -14,6 +14,7 @@ function App() {
  scrollbar-width: none;
  color: #be9e44;
  `
+ 
   return (
     <>
     <Container>

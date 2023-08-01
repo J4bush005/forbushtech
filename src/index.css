@@ -62,8 +62,26 @@ body {
 
 /*Open*/
 
+.links{
+  text-decoration: #be9e44;
+}
+
 #open-logo{
   width: 700px;
+}
+
+#click{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#be9e44;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all 0.3s;
+}
+
+#click:hover{
+  color: white;
+    text-shadow: 2px 2px 4px #be9e44;
 }
 
 /*WHO*/

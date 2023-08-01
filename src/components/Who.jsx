@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { styled } from "styled-components";
 import { motion } from "framer-motion";
 import Header from "./Header";
+import Mission from "./Mission";
+import Contact from "./Contact";
+import LoadingParticle from "./LoadingParticle";
+import Open from "./Open";
+import App from "../App";
 
 const Section = styled.div`
   height: 100vh;
@@ -9,15 +14,24 @@ const Section = styled.div`
 `;
 
 const Who = () => {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 4000)
+  }, [])
   return (
-    <motion.div
-    initial={{opacity: 0}}
-    whileInView={{opacity: 1}}
-    transition={{duration: 1, delay: 2}}
-    viewport={{once: true}}
-    >
-    <Section>
-      <Header />
+    <div>
+    {
+      loading ?
+      <LoadingParticle/>
+      :
+
+       <Header/>
+    }
+      <Section>
       <section id="open-heading">
       <div className="row">
         <div className="col-6">
@@ -26,7 +40,15 @@ const Who = () => {
       </div>
       </section>
     </Section>
-    </motion.div>
+
+    <Section>
+    <Mission />
+    </Section>
+
+    <Section>
+    <Contact />
+    </Section>
+    </div>
   );
 };
 
