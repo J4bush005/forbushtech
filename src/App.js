@@ -20,7 +20,7 @@ function App() {
     <Container>
     <Particle/>
     <Routes>
-    <Route index element={<Open />}/>
+    <Route index element={<Open />}/> 
     <Route path="/Who" element={<Who />}/>
     </Routes>
     </Container>

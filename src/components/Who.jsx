@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import LoadingParticle from "./LoadingParticle";
 import Open from "./Open";
 import App from "../App";
+import Particle from "./Particle";
 
 const Section = styled.div`
   height: 100vh;
@@ -28,26 +29,31 @@ const Who = () => {
       loading ?
       <LoadingParticle/>
       :
-
+      <>
        <Header/>
-    }
-      <Section>
+        <Section>
       <section id="open-heading">
       <div className="row">
         <div className="col-6">
-          <div className="1-heading-text">Forbush Technologies</div>
+          <div>Who</div>
         </div>
       </div>
       </section>
     </Section>
-
-    <Section>
+     <Section>
     <Mission />
     </Section>
-
-    <Section>
+     <Section>
     <Contact />
     </Section>
+       <Particle />
+       </>
+    }
+     
+
+   
+
+   
     </div>
   );
 };
