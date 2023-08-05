@@ -5,11 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/src/components/images/AdobeStock_107401328.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 ::-webkit-scrollbar{
@@ -31,6 +26,11 @@ body {
   width: 300px;
 }
 
+#header-open{
+  color: rgba(203, 178, 106);
+  font-family:'Times New Roman', Times, serif;
+}
+
 
 
 #bigger {
@@ -40,13 +40,13 @@ body {
 
 #offcanvasNavbar{
   background-color: black;
-  color: #be9e44;
+  color: rgba(203, 178, 106);
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
 }
 
 #body-text{
-  color: #be9e44;
+  color: rgba(203, 178, 106);
   font-family: 'Times New Roman', Times, serif;
   font-size: x-large;
 }
@@ -56,14 +56,14 @@ body {
 }
 
 #close{
-  color: #be9e44;
-  background-color: #be9e44;
+  color: rgba(203, 178, 106);
+  color: rgba(203, 178, 106);
 }
 
 /*Open*/
 
 .links{
-  text-decoration: #be9e44;
+  color: rgba(203, 178, 106);
 }
 
 #open-logo{
@@ -74,7 +74,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color:#be9e44;
+  color: rgba(203, 178, 106);
   font-family: 'Times New Roman', Times, serif;
   transition: all 0.3s;
 }
@@ -87,7 +87,7 @@ body {
 /*WHO*/
 
 #open-heading{
-  
+  color: rgba(203, 178, 106);
   font-family: 'Times New Roman', Times, serif;
   padding-left: 20px;
 }

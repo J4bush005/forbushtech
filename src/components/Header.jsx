@@ -8,7 +8,8 @@ function Header() {
     <nav id="header" class="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-         <img id="logo-image" src={Color} alt="" />
+         <h1 id="header-open">Forbush </h1>
+         <h1 id="header-open">Technologies </h1>
         </a>
         <button
         

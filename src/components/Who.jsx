@@ -19,7 +19,7 @@ const Who = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 4000)
+    }, 2500)
   }, [])
   return (
     <div>
@@ -28,8 +28,9 @@ const Who = () => {
       <LoadingParticle/>
       :
       <>
-       <Header/>
+      
         <Section>
+         <Header/>
       <section id="open-heading">
       <div className="row">
         <div className="col-6">
