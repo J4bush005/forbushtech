@@ -1,5 +1,6 @@
 import React from "react";
 import Color from "./images/Color logo - no background.png";
+import F from "./images/F.png";
 import "../index.css";
 
 function Header() {
@@ -8,8 +9,7 @@ function Header() {
     <nav id="header" class="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-         <h1 id="header-open">Forbush </h1>
-         <h1 id="header-open">Technologies </h1>
+        <img id="logo" className="img-fluid" src={F} alt="" />
         </a>
         <button
         

@@ -19,7 +19,7 @@ const Who = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 2500)
+    }, 20)
   }, [])
   return (
     <div>
@@ -34,7 +34,7 @@ const Who = () => {
       <section id="open-heading">
       <div className="row">
         <div className="col-6">
-          <div>Who</div>
+          <div>Innovate. Transform. Elevate.</div>
         </div>
       </div>
       </section>

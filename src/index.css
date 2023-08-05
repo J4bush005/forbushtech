@@ -31,6 +31,10 @@ body {
   font-family:'Times New Roman', Times, serif;
 }
 
+#logo{
+  height: 100px;
+}
+
 
 
 #bigger {
@@ -57,7 +61,7 @@ body {
 
 #close{
   color: rgba(203, 178, 106);
-  color: rgba(203, 178, 106);
+  background-color: rgba(203, 178, 106);
 }
 
 /*Open*/
@@ -89,7 +93,10 @@ body {
 #open-heading{
   color: rgba(203, 178, 106);
   font-family: 'Times New Roman', Times, serif;
-  padding-left: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 20vh;
 }
 
 
