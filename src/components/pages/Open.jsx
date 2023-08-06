@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { styled } from "styled-components";
-import Logo from "../Logo.svg";
+import Logo from "../../Logo.svg";
 import { Link } from "react-router-dom";
 
 const Section = styled.div`

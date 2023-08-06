@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import Who from "./components/Who";
-import Open from "./components/Open";
+import Who from "./components/pages/Who";
+import Open from "./components/pages/Open";
 import "./index.css";
 import styled from "styled-components";
 import Particle from "./components/Particle";
