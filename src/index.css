@@ -100,3 +100,11 @@ body {
 }
 
 
+/* MISSION */
+
+#test{
+  display: flex;
+  justify-content: center;
+}
+
+

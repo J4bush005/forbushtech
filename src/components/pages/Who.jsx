@@ -7,7 +7,7 @@ import Mission from "./Mission";
 import Contact from "./Contact";
 import LoadingParticle from "../LoadingParticle";
 import Particle from "../Particle";
-import Cube from "../cube";
+
 
 const Section = styled.div`
   height: 100vh;

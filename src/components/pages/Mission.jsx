@@ -1,11 +1,18 @@
 import React from 'react';
-import Cube from "../cube";
+import Cube from '../Cubes';
+
+
 
 
 const Mission = () => {
     return (
-       <div>
+       <div className='row'>
+       <div className="col-6">
             <Cube />
+        </div>
+        <div id="test" className="col">
+        Here
+        </div>
         </div>
     );
 }
