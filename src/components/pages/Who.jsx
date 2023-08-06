@@ -7,6 +7,7 @@ import Mission from "./Mission";
 import Contact from "./Contact";
 import LoadingParticle from "../LoadingParticle";
 import Particle from "../Particle";
+import Cube from "../Cubes";
 
 
 const Section = styled.div`
@@ -35,9 +36,11 @@ const Who = () => {
          <Header/>
       <section id="open-heading">
       <div className="row">
-        <div className="col-6">
-          
+        <div id="test" className="col-6">
+          Words
         </div>
+        <div className="col-6">
+         </div>
       </div>
       </section>
     </Section>

@@ -93,9 +93,10 @@ body {
 #open-heading{
   color: rgba(203, 178, 106);
   font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  align-items:center;
-  justify-content: center;
+  margin-top: 150px;
+}
+
+#tests {
   
 }
 
