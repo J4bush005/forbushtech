@@ -22,4 +22,4 @@ function Boost() {
   )
 }
 
-export default Boost
+export default Boost;

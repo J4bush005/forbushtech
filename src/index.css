@@ -7,105 +7,97 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
- }
+}
 
 /*HEADER*/
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(203, 178, 106)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
- 
 }
 
 .custom-toggler.navbar-toggler {
   border-color: none;
 }
 
-#logo-image{
+#logo-image {
   width: 300px;
 }
 
-#header-open{
+#header-open {
   color: rgba(203, 178, 106);
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-#logo{
+#logo {
   height: 100px;
 }
-
-
 
 #bigger {
   width: 50px;
   height: 50px;
 }
 
-#offcanvasNavbar{
+#offcanvasNavbar {
   background-color: black;
   color: rgba(203, 178, 106);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: xx-large;
 }
 
-#body-text{
+#body-text {
   color: rgba(203, 178, 106);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
 }
 
-#background{
+#background {
   background-color: black;
 }
 
-#close{
+#close {
   color: rgba(203, 178, 106);
   background-color: rgba(203, 178, 106);
 }
 
 /*Open*/
 
-.links{
+.links {
   color: rgba(203, 178, 106);
 }
 
-#open-logo{
+#open-logo {
   width: 700px;
 }
 
-#click{
+#click {
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgba(203, 178, 106);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   transition: all 0.3s;
 }
 
-#click:hover{
+#click:hover {
   color: white;
-    text-shadow: 2px 2px 4px #be9e44;
+  text-shadow: 2px 2px 4px #be9e44;
 }
 
 /*WHO*/
 
-#open-heading{
+#open-heading {
   color: rgba(203, 178, 106);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin-top: 150px;
 }
 
-#tests {
-  
-}
 
 
 /* MISSION */
 
-#test{
+#test {
   display: flex;
   justify-content: center;
 }
-
-
