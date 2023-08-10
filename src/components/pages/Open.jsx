@@ -20,10 +20,7 @@ function Open() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  
   return (
-
-    
     <Section>
       <section
         id="open-logo"

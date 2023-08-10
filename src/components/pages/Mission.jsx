@@ -1,20 +1,17 @@
-import React from 'react';
-import Cube from '../Shapes/Cubes';
-
-
-
+import React from "react";
+import Cube from "../Shapes/Cubes";
 
 const Mission = () => {
-    return (
-       <div className='row'>
-       <div className="col-6">
-            <Cube />
-        </div>
-        <div id="test" className="col">
+  return (
+    <div className="row">
+      <div className="col-6">
+        <Cube />
+      </div>
+      <div id="test" className="col">
         Here
-        </div>
-        </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default Mission;

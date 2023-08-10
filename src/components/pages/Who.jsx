@@ -12,66 +12,60 @@ import { Canvas } from "@react-three/fiber";
 import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 import Projects from "./Projects";
 
-
-
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
 `;
 const Img = styled.img`
-animation: animate 2s infinite ease alternate;
+  animation: animate 2s infinite ease alternate;
 
-@keyframes animate {
-  to{
-    transform: translateY(15px);
+  @keyframes animate {
+    to {
+      transform: translateY(15px);
+    }
   }
-}`;
+`;
 
 const Who = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     setTimeout(() => {
-      setLoading(false)
-    }, 20)
-  }, [])
+      setLoading(false);
+    }, 20);
+  }, []);
   return (
     <div>
-    {
-      loading ?
-      <LoadingParticle/>
-      :
-      <>
-      
-        <Section>
-         <Header/>
-      <section id="open-heading">
-      <div className="row d-flex justify-content-center">
-        <div className="col-6">
-        <Img src={Color} className="img-fluid"/>
-         </div>
-         <div id="slogan" className="row d-flex justify-content-center">Innovate. Transform. Elevate</div>
-      </div>
-      </section>
-    </Section>
-     <Section>
-    <Mission />
-    </Section>
-    <Section>
-      <Projects />
-    </Section>
-     <Section>
-    <Contact />
-    </Section>
-       <Particle />
-       </>
-    }
-     
-
-   
-
-   
+      {loading ? (
+        <LoadingParticle />
+      ) : (
+        <>
+          <Section>
+            <Header />
+            <section id="open-heading">
+              <div className="row d-flex justify-content-center">
+                <div className="col-6">
+                  <Img src={Color} className="img-fluid" />
+                </div>
+                <div id="slogan" className="row d-flex justify-content-center">
+                  Innovate. Transform. Elevate
+                </div>
+              </div>
+            </section>
+          </Section>
+          <Section>
+            <Mission />
+          </Section>
+          <Section>
+            <Projects />
+          </Section>
+          <Section>
+            <Contact />
+          </Section>
+          <Particle />
+        </>
+      )}
     </div>
   );
 };
