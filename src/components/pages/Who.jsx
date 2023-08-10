@@ -6,7 +6,7 @@ import Mission from "./Mission";
 import Contact from "./Contact";
 import LoadingParticle from "../LoadingParticle";
 import Particle from "../Particle";
-import Cube from "../Cubes";
+import Cube from "../Shapes/Cubes";
 import Color from "../images/Color logo - no background.png";
 import { Canvas } from "@react-three/fiber";
 import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
@@ -22,7 +22,7 @@ animation: animate 2s infinite ease alternate;
 
 @keyframes animate {
   to{
-    transform: translateY(30px);
+    transform: translateY(15px);
   }
 }`;
 
@@ -46,13 +46,11 @@ const Who = () => {
         <Section>
          <Header/>
       <section id="open-heading">
-      <div className="row">
-        <div id="test" className="col-6">
-          Who
-        </div>
+      <div className="row d-flex justify-content-center">
         <div className="col-6">
         <Img src={Color} className="img-fluid"/>
          </div>
+         <div id="slogan" className="row d-flex justify-content-center">Innovate. Transform. Elevate</div>
       </div>
       </section>
     </Section>

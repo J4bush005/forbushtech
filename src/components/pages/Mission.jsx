@@ -1,5 +1,5 @@
 import React from 'react';
-import Cube from '../Cubes';
+import Cube from '../Shapes/Cubes';
 
 
 
