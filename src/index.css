@@ -101,3 +101,16 @@ body {
   display: flex;
   justify-content: center;
 }
+
+
+/* CONTACT */ 
+
+.width{
+  height: 200px;
+  width: 740px;
+}
+
+.form-label {
+  color: white;
+  font-size: large;
+}
