@@ -3,6 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import React, { useRef } from "react";
 import { styled } from "styled-components";
 import Boost from "./Boost";
+import Transform from "./Transform";
 
 const Container = styled.div`
   height: 100vh;
@@ -18,7 +19,7 @@ function Cube() {
         <OrbitControls enableZoom={false} autoRotate/>
         <ambientLight intensity={1} />
         <directionalLight position={[3, 2, 1]} />
-       <Boost />
+       <Transform />
       </Canvas>
     </Container>
   );
