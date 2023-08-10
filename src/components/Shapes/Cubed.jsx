@@ -2,7 +2,7 @@ import { OrbitControls, PerspectiveCamera, RenderTexture, Text } from "@react-th
 import { Canvas, useFrame } from "@react-three/fiber";
 import React, { useRef } from "react";
 import { styled } from "styled-components";
-import Transform from "./Transform";
+import Boost from "./Boost";
 
 const Container = styled.div`
   height: 100vh;
@@ -10,7 +10,7 @@ const Container = styled.div`
   scroll-snap-align: center;
 `;
 
-function Cube() {
+function Cubed() {
 
   return (
     <Container>
@@ -18,10 +18,10 @@ function Cube() {
         <OrbitControls enableZoom={false} autoRotate/>
         <ambientLight intensity={1} />
         <directionalLight position={[3, 2, 1]} />
-       <Transform />
+       <Boost />
       </Canvas>
     </Container>
   );
 }
 
-export default Cube;
+export default Cubed;
