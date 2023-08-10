@@ -1,11 +1,10 @@
 import React, { useRef } from "react";
 import {
-  OrbitControls,
   PerspectiveCamera,
   RenderTexture,
   Text,
 } from "@react-three/drei";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 
 function Boost() {
   const textRef = useRef();

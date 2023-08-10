@@ -1,11 +1,8 @@
 import {
-  OrbitControls,
-  PerspectiveCamera,
-  RenderTexture,
-  Text,
+  OrbitControls
 } from "@react-three/drei";
-import { Canvas, useFrame } from "@react-three/fiber";
-import React, { useRef } from "react";
+import { Canvas} from "@react-three/fiber";
+import React from "react";
 import { styled } from "styled-components";
 import Transform from "./Transform";
 

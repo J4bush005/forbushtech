@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { styled } from "styled-components";
-import { motion } from "framer-motion";
 import Header from "../Header";
 import Mission from "./Mission";
 import Contact from "./Contact";
 import LoadingParticle from "../LoadingParticle";
 import Particle from "../Particle";
-import Cube from "../Shapes/Cubes";
 import Color from "../images/Color logo - no background.png";
-import { Canvas } from "@react-three/fiber";
-import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 import Projects from "./Projects";
 
 const Section = styled.div`
