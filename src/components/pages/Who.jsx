@@ -10,6 +10,7 @@ import Cube from "../Shapes/Cubes";
 import Color from "../images/Color logo - no background.png";
 import { Canvas } from "@react-three/fiber";
 import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
+import Projects from "./Projects";
 
 
 
@@ -56,6 +57,9 @@ const Who = () => {
     </Section>
      <Section>
     <Mission />
+    </Section>
+    <Section>
+      <Projects />
     </Section>
      <Section>
     <Contact />
