@@ -28,7 +28,10 @@ const Contact = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-6">
-          <form ref={form} onSubmit={sendEmail}>
+          <Cubed />
+        </div>
+        <div className="col-6">
+        <form ref={form} onSubmit={sendEmail}>
             <div className="row g-3 d-flex mt-5">
               <div className="col-6">
                 <label className="form-label topper">Name:</label>
@@ -70,9 +73,6 @@ const Contact = () => {
               </div>
             </div>
           </form>
-        </div>
-        <div className="col-6">
-          <Cubed />
         </div>
       </div>
     </div>

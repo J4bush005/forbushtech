@@ -7,6 +7,8 @@ import LoadingParticle from "../LoadingParticle";
 import Particle from "../Particle";
 import Color from "../images/Color logo - no background.png";
 import Projects from "./Projects";
+import Shpere from "../Shapes/Sphere";
+
 
 const Section = styled.div`
   height: 100vh;
@@ -41,12 +43,14 @@ const Who = () => {
             <Header />
             <section id="open-heading">
               <div className="row d-flex justify-content-center">
-                <div className="col-6">
-                  <Img src={Color} className="img-fluid" />
+                <div className="col-12">
+                 <Shpere />
+                  {/* <Img src={Color} className="img-fluid" />
                 </div>
                 <div id="slogan" className="row d-flex justify-content-center">
                   Innovate. Transform. Elevate
-                </div>
+                </div> */}
+              </div>
               </div>
             </section>
           </Section>

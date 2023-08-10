@@ -23,12 +23,14 @@ function Open() {
   return (
     <Section>
       <section
-        id="open-logo"
+        id=""
         style={{ transform: `translateY(${offsetY * -0.7}px)` }}
       >
         <Link className="links" to={"/Who"}>
-          <div className="row">
+          <div className="row d-flex justify-content-center">
+            <div className="col-6">
             <img className="img-fluid" src={Logo} alt="" />
+            </div>
           </div>
           <div className="row">
             <p id="click">click here</p>
