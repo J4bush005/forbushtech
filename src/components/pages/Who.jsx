@@ -45,12 +45,12 @@ const Who = () => {
               <div className="row d-flex justify-content-center">
                 <div className="col-12">
                  <Shpere />
-                  {/* <Img src={Color} className="img-fluid" />
+                   <Img id="open-logo" src={Color} className="img-fluid" />
+                   <div id="slogan" className="row d-flex justify-content-center">
+                  Innovate. Transform. Elevate.
+                </div> 
                 </div>
-                <div id="slogan" className="row d-flex justify-content-center">
-                  Innovate. Transform. Elevate
-                </div> */}
-              </div>
+               
               </div>
             </section>
           </Section>
