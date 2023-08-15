@@ -5,7 +5,9 @@ import { Canvas, extend, useFrame, useLoader } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro"
 import { styled } from "styled-components";
-import Color from "../images/Color logo - no background.png"
+import { Color } from "three";
+import Colors from "../images/Color logo - no background.png"
+
 
 const Container = styled.div`
   height: 50vh;
@@ -38,7 +40,7 @@ const WaveShaderMaterial = shaderMaterial(
 
     void main() {
       vec3 texture = texture2D(uTexture, vUv).rgb;
-        gl_FragColor = vec4(cos(vUv.y * uTime) * uColor, 0.3);
+        gl_FragColor = vec4(vUv.y * uColor, 0.01);
     }
     `
 );
@@ -48,14 +50,15 @@ extend({ WaveShaderMaterial });
 
 const Wave = () => {
   const ref = useRef();
-  useFrame(({ clock }) => (ref.current.uTime = clock.getElapsedTime()));
+   useFrame(({ clock }) => (ref.current.uTime = clock.getElapsedTime())); 
 
-  const [image] = useLoader(THREE.TextureLoader, [Color]);
+  const [image] = useLoader(THREE.TextureLoader, [Colors]);
+  const shadowColor = new Color(0.203, 0.178, 0.106);
 
   return(
     <mesh>
         <sphereGeometry args={[3, 32, 32]} scale={1}/>
-        <waveShaderMaterial uColor={"rgb(203,178,106)"} ref={ref} uTexture={image}/>
+        <waveShaderMaterial uColor={shadowColor} ref={ref}  uTexture={image}/>
       </mesh>
   );
 };
@@ -66,7 +69,7 @@ const Scene = () => {
     <Canvas>
         <OrbitControls enableZoom={false} autoRotate />
         <ambientLight intensity={1} />
-        <directionalLight position={[3, 2, 1]} />
+        <directionalLight position={[3, 2, 1]} color={'gold'}/>
         <Suspense fallback={null}>
       <Wave />
       </Suspense>
