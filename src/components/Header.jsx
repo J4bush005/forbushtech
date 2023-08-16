@@ -12,7 +12,7 @@ function Header() {
           <Link class="navbar-brand" to={"/"}>
             <img id="logo" className="img-fluid" src={F} alt="" />
           </Link>
-          <button
+         {/*  <button
             class="navbar-toggler custom-toggler "
             type="button"
             data-bs-toggle="offcanvas"
@@ -72,9 +72,9 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-              </ul>
+              </ul> 
             </div>
-          </div>
+          </div>*/}
         </div>
       </nav>
     </div>

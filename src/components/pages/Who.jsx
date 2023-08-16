@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { styled } from "styled-components";
 import Header from "../Header";
 import Mission from "./Mission";
@@ -27,15 +27,7 @@ const Img = styled.img`
 
 const Who = () => {
   const [loading, setLoading] = useState(false);
-  const contact = useRef(null);
 
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-    return scrollToSection;
-  };
 
   useEffect(() => {
     setLoading(true);
