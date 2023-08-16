@@ -10,25 +10,22 @@ import Projects from "./Projects";
 import Shpere from "../Shapes/Sphere";
 import Media from "react-media";
 
-
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
-  
 `;
 const Img = styled.img`
   animation: animate 2s infinite ease alternate;
 
   @keyframes animate {
     to {
-      transform: translateY(15px);
+      transform: translateY(5px);
     }
   }
 `;
 
 const Who = () => {
   const [loading, setLoading] = useState(false);
-
 
   useEffect(() => {
     setLoading(true);
@@ -42,25 +39,51 @@ const Who = () => {
         <LoadingParticle />
       ) : (
         <>
-        <Media query="(min-width: 769px)">
-          <Section>
-           <Header />
-            <section id="open-heading" className="d-flex justify-content-center align-items-center">
-              <div className="row">
-                <div className="col-12">
-                 <Shpere />
-                 
-                   <Img id="open-logo" src={Color} className="img-fluid" />
-                   <div id="slogan" className="row d-flex justify-content-center">
-                  Innovate. Transform. Elevate.
-                </div> 
-                
+          <Media query="(max-width: 768px)">
+            <Section>
+              <Header />
+              <section
+                id="open-heading"
+                className="d-flex justify-content-center align-items-center"
+              >
+                <div className="row">
+                  <div className="col-12">
+                    <Shpere />
+
+                    <Img id="open-logo" src={Color} className="img-fluid" />
+                    <div
+                      id="slogan"
+                      className="row d-flex justify-content-center"
+                    >
+                      Innovate. Transform. Elevate.
+                    </div>
+                  </div>
                 </div>
-               
-              </div>
-            </section>
-            
-          </Section>
+              </section>
+            </Section>
+          </Media>
+          <Media query="(min-width: 1024px)">
+            <Section>
+              <Header />
+              <section
+                id="open-heading"
+                className="d-flex justify-content-center align-items-center"
+              >
+                <div className="row">
+                  <div className="col-12">
+                    <Shpere />
+
+                    <Img id="open-logo" src={Color} className="img-fluid" />
+                    <div
+                      id="slogan"
+                      className="row d-flex justify-content-center"
+                    >
+                      Innovate. Transform. Elevate.
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </Section>
           </Media>
           <Section>
             <Mission />

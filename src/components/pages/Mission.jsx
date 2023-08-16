@@ -4,7 +4,7 @@ import Media from "react-media";
 
 const Mission = () => {
   return (
-    <Media query="(min-width: 769px)">
+    <Media query="(min-width: 1024px)">
       <div className="row">
         <div className="col-6">
           <Cube />
