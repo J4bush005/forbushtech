@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import React, {useRef, Suspense} from "react";
-import { OrbitControls, PerspectiveCamera, RenderTexture} from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { Canvas, extend, useFrame, useLoader } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro"
@@ -57,9 +57,10 @@ const Wave = () => {
 
   return(
     <mesh>
-        <sphereGeometry args={[3, 32, 32]} scale={1}/>
+        <torusGeometry args={[3, 0.5, 3, 100]} scale={1}/>
         <waveShaderMaterial uColor={shadowColor} ref={ref}  uTexture={image}/>
       </mesh>
+      
   );
 };
 
@@ -67,9 +68,9 @@ const Scene = () => {
   return (
     <Container>
     <Canvas>
-        <OrbitControls enableZoom={false} autoRotate />
+        <OrbitControls enableZoom={false}  />
         <ambientLight intensity={1} />
-        <directionalLight position={[3, 2, 1]} color={'gold'}/>
+        <directionalLight position={[3, 2, 1]} />
         <Suspense fallback={null}>
       <Wave />
       </Suspense>
