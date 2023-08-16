@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="col-6">
           <Cubed />
         </div>
-        <div className="col-6">
+        <div id="format" className="col-6">
         <form ref={form} onSubmit={sendEmail}>
             <div className="row g-3 d-flex mt-5">
               <div className="col-6">

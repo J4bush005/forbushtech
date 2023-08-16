@@ -3,6 +3,7 @@ import F from "./images/F.png";
 import "../index.css";
 import { Link } from "react-router-dom";
 
+
 function Header() {
   return (
     <div>
@@ -41,16 +42,6 @@ function Header() {
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <Link
-                    id="body-text"
-                    class="nav-link active"
-                    aria-current="page"
-                    to={"#"}
-                  >
-                    Contact
-                  </Link>
-                </li>
                 <li class="nav-item dropdown">
                   <Link
                     id="body-text"

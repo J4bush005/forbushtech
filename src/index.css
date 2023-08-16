@@ -142,6 +142,10 @@ body {
   padding-top: 15px;
 }
 
+#format{
+  margin-top: 10%;
+}
+
 @media screen and (min-width: 0px) and (max-width: 640px) {
   .width {
     width: 200px;
@@ -165,4 +169,10 @@ body {
   margin-top: 2%;
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
+}
+
+#Headings{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 15%;
+  padding-left: 2%;
 }
