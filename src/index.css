@@ -176,6 +176,7 @@ body {
 #Heading{
   font-family: 'Times New Roman', Times, serif;
   margin-top: 15%;
+  padding-left: 3%;
 }
 
 #body-text{
@@ -189,11 +190,11 @@ body {
   margin-top: 2%;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
-  padding-right: 2%;
+  
 }
 
 #Headings{
   font-family: 'Times New Roman', Times, serif;
   margin-top: 15%;
-  padding-left: 2%;
+  
 }
