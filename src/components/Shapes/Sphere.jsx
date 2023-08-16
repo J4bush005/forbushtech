@@ -67,8 +67,8 @@ const Wave = () => {
 const Scene = () => {
   return (
     <Container>
-    <Canvas>
-        <OrbitControls enableZoom={false}  />
+    <Canvas camera={{fov: 60}}>
+        <OrbitControls enableZoom={false} />
         <ambientLight intensity={1} />
         <directionalLight position={[3, 2, 1]} />
         <Suspense fallback={null}>

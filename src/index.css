@@ -7,6 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flex {
+  display: flex;
+}
+
+.x2 {
+  flex: 2;
+}
+
+.goldbar {
+  border: solid white 1px;
+  height: 0px;
+  width: 190px;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -168,7 +182,14 @@ body {
   color:rgba(203, 178, 106);
   margin-top: 2%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: xx-large;
+  font-size: large;
+}
+#body-texts{
+  color:rgba(203, 178, 106);
+  margin-top: 2%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  padding-right: 2%;
 }
 
 #Headings{

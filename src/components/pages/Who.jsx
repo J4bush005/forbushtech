@@ -8,6 +8,7 @@ import Particle from "../Particle";
 import Color from "../images/Color logo - no background.png";
 import Projects from "./Projects";
 import Shpere from "../Shapes/Sphere";
+import Media from "react-media";
 
 
 const Section = styled.div`
@@ -41,6 +42,7 @@ const Who = () => {
         <LoadingParticle />
       ) : (
         <>
+        <Media query="(min-width: 769px)">
           <Section>
            <Header />
             <section id="open-heading" className="d-flex justify-content-center align-items-center">
@@ -57,7 +59,9 @@ const Who = () => {
                
               </div>
             </section>
+            
           </Section>
+          </Media>
           <Section>
             <Mission />
           </Section>
