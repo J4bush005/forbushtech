@@ -153,3 +153,16 @@ body {
     width: 400px;
   }
 }
+
+/* MISSION */
+#Heading{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 15%;
+}
+
+#body-text{
+  color:rgba(203, 178, 106);
+  margin-top: 2%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
