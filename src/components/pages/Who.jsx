@@ -13,6 +13,7 @@ import Shpere from "../Shapes/Sphere";
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
+  
 `;
 const Img = styled.img`
   animation: animate 2s infinite ease alternate;
@@ -40,15 +41,17 @@ const Who = () => {
       ) : (
         <>
           <Section>
-            <Header />
-            <section id="open-heading">
-              <div className="row d-flex justify-content-center">
+           <Header />
+            <section id="open-heading" className="d-flex justify-content-center align-items-center">
+              <div className="row">
                 <div className="col-12">
                  <Shpere />
+                 
                    <Img id="open-logo" src={Color} className="img-fluid" />
                    <div id="slogan" className="row d-flex justify-content-center">
                   Innovate. Transform. Elevate.
                 </div> 
+                
                 </div>
                
               </div>

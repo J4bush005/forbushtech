@@ -95,18 +95,21 @@ body {
 
 #slogan{
   font-size: xx-large;
-  margin: 0;
   position: relative;
-  bottom: 53%;
-  left: 0%;
+  bottom: 50%;
+
 }
 
 #open-logo{
   margin: 0;
   position: relative;
-  top: -55%;
-  left: 36.4%;
+  bottom: 50%;
+
   
+}
+
+#margin-up{
+  margin-bottom: 2000px;
 }
 
 
