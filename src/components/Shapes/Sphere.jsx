@@ -6,7 +6,7 @@ import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro"
 import { styled } from "styled-components";
 import { Color } from "three";
-import Colors from "../images/Color logo - no background.png"
+import Colors from "../images/Color logo - no background.webp"
 
 
 const Container = styled.div`

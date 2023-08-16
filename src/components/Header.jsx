@@ -1,5 +1,5 @@
 import React from "react";
-import F from "./images/F.png";
+import F from "./images/F.webp";
 import "../index.css";
 import { Link } from "react-router-dom";
 

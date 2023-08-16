@@ -4,7 +4,7 @@ import Cube from "../Shapes/Cube";
 const Projects = () => {
   return (
     <div className="row">
-      <h1 id="Headings" className="col-6 display-1">
+      <h1 id="Heading" className="col-6 display-4">
         Empowering Change
         <div className="flex">
           <div className="x1 goldbar home">

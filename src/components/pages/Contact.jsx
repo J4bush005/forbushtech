@@ -33,7 +33,7 @@ const Contact = () => {
         <div id="format" className="col-6">
         <form ref={form} onSubmit={sendEmail}>
             <div className="row g-3 d-flex mt-5">
-              <div className="col-6">
+              <div className="col-12">
                 <label className="form-label topper">Name:</label>
                 <input
                   type="text"
@@ -44,7 +44,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="row g-3 d-flex">
-              <div className="col-6">
+              <div className="col-12">
                 <label className="form-label topper">Email:</label>
                 <input
                   type="email"
@@ -55,7 +55,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="row g-3 d-flex">
-              <div className="col-6">
+              <div className="col-12">
                 <label className="form-label topper">Phone Number:</label>
                 <input
                   type="tel"
@@ -66,7 +66,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="row g-3 d-flex">
-              <div className="col-6">
+              <div className="col-12">
                 <label className="form-label topper">Message:</label>
                 <textarea name="message" className="width d-flex" required />
                 <input type="submit" className="send" value="Send" />

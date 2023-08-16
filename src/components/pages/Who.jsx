@@ -5,7 +5,7 @@ import Mission from "./Mission";
 import Contact from "./Contact";
 import LoadingParticle from "../LoadingParticle";
 import Particle from "../Particle";
-import Color from "../images/Color logo - no background.png";
+import Color from "../images/Color logo - no background.webp";
 import Projects from "./Projects";
 import Shpere from "../Shapes/Sphere";
 import Media from "react-media";
