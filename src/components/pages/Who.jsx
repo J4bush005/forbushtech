@@ -14,6 +14,10 @@ const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
 `;
+const Sections = styled.div`
+  height: 150vh;
+  scroll-snap-align: start;
+`;
 const Img = styled.img`
   animation: animate 2s infinite ease alternate;
 
@@ -91,9 +95,9 @@ const Who = () => {
           <Section>
             <Projects />
           </Section>
-          <Section>
+          <Sections>
             <Contact />
-          </Section>
+          </Sections>
           <Particle />
         </>
       )}
