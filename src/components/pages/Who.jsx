@@ -18,6 +18,10 @@ const Sections = styled.div`
   height: 150vh;
   scroll-snap-align: start;
 `;
+const Sectionss = styled.div`
+  height: 70vh;
+  scroll-snap-align: start;
+`;
 const Img = styled.img`
   animation: animate 2s infinite ease alternate;
 
@@ -44,6 +48,7 @@ const Who = () => {
       ) : (
         <>
           <Media query="(max-width: 768px)">
+            <>
             <Section>
               <Header />
               <section
@@ -66,8 +71,19 @@ const Who = () => {
                 </div>
               </section>
             </Section>
+            <Section>
+            <Mission />
+          </Section>
+          <Section>
+            <Projects />
+          </Section>
+          <Sections>
+            <Contact />
+          </Sections>
+          </>
           </Media>
-          <Media query="(min-width: 1024px)">
+          <Media query="(min-width: 769px)">
+            <>
             <Section>
               <Header />
               <section
@@ -89,16 +105,17 @@ const Who = () => {
                 </div>
               </section>
             </Section>
-          </Media>
-          <Section>
+            <Sectionss>
             <Mission />
-          </Section>
-          <Section>
+          </Sectionss>
+          <Sectionss>
             <Projects />
-          </Section>
+          </Sectionss>
           <Sections>
             <Contact />
           </Sections>
+          </>
+          </Media>
           <Particle />
         </>
       )}

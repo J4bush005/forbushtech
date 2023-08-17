@@ -8,7 +8,7 @@ import Elevate from "./Elevate";
 import Media from "react-media";
 
 const Container = styled.div`
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   scroll-snap-align: center;
 `;
@@ -31,9 +31,9 @@ function Cubed() {
           </Canvas>
         </Containers>
       </Media>
-      <Media query="(min-width: 1024px)">
+      <Media query="(min-width: 769px)">
         <Container>
-          <Canvas camera={{ fov: 35, position: [5, 5, 5] }}>
+          <Canvas camera={{ fov: 40, position: [5, 5, 5] }}>
             <OrbitControls enableZoom={false} autoRotate />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />

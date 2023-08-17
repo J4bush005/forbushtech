@@ -18,7 +18,7 @@ function Boost() {
         <RenderTexture attach="map">
           <PerspectiveCamera makeDefault position={[0, 0, 2]} />
           <color attach="background" args={["black"]} />
-          <Text ref={textRef} fontSize={0.8} color="white">
+          <Text ref={textRef} fontSize={0.7} color="white">
             Innovate
           </Text>
         </RenderTexture>

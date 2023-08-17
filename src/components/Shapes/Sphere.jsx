@@ -79,7 +79,7 @@ const Scene = () => {
 
       <Media query="(min-width: 769px)">
         <Container>
-          <Canvas camera={{ fov: 60 }}>
+          <Canvas camera={{ fov: 70 }}>
             <OrbitControls enableZoom={false} />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
