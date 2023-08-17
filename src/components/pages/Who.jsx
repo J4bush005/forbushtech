@@ -58,6 +58,7 @@ const Who = () => {
                     <div
                       id="slogan"
                       className="row d-flex justify-content-center"
+                      style={{fontSize: "x-large"}}
                     >
                       Innovate. Transform. Elevate.
                     </div>
