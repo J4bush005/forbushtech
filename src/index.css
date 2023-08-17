@@ -179,12 +179,25 @@ body {
   padding-left: 3%;
 }
 
+#Heading-sm{
+  font-family: 'Times New Roman', Times, serif;  
+}
+
 #body-text{
   color:rgba(203, 178, 106);
   margin-top: 2%;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
 }
+
+#body-text-sm{
+  color: rgba(203, 178, 106);
+  margin-top: 2%;
+  margin-right: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
 #body-texts{
   color:rgba(203, 178, 106);
   margin-top: 2%;
