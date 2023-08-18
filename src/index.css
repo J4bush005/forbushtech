@@ -122,6 +122,16 @@ body {
   
 }
 
+#open-logo-sm{
+position: relative;
+bottom: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 #margin-up{
   margin-bottom: 2000px;
 }
