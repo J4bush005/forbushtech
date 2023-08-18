@@ -14,6 +14,10 @@ const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
 `;
+const Sectioned = styled.div`
+  height: 100vh;
+  scroll-snap-align: start;
+`;
 const Sections = styled.div`
   height: 150vh;
   scroll-snap-align: start;
@@ -39,7 +43,7 @@ const Who = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 20);
+    }, 2000);
   }, []);
   return (
     <div>
@@ -84,8 +88,8 @@ const Who = () => {
           </Media>
           <Media query="(min-width: 769px)">
             <>
-            <Section>
-              <Header />
+            <Sectioned>
+             
               <section
                 id="open-heading"
                 className="d-flex justify-content-center align-items-center"
@@ -104,7 +108,7 @@ const Who = () => {
                   </div>
                 </div>
               </section>
-            </Section>
+            </Sectioned>
             <Sectionss>
             <Mission />
           </Sectionss>
