@@ -19,18 +19,13 @@ function App() {
   `;
 
   return (
-    <>
-      <Container>
-       
-       <Head>
-         <Header />
-         </Head>
+    <div>
+    <Header />
         <Routes>
-          <Route index element={<Open />} />
+           <Route index element={<Open />} />
           <Route path="/Who" element={<Who />} />
         </Routes>
-      </Container>
-    </>
+    </div>
   );
 }
 
