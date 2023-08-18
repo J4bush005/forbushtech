@@ -89,7 +89,7 @@ const Who = () => {
           <Media query="(min-width: 769px)">
             <>
             <Sectioned>
-             
+             <Header/>
               <section
                 id="open-heading"
                 className="d-flex justify-content-center align-items-center"
