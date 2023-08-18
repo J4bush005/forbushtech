@@ -18,7 +18,7 @@ function App() {
     <>
       <Container>
         <Particle />
-        <Open />
+        
         <Routes>
           <Route index element={<Open />} />
           <Route path="/Who" element={<Who />} />
