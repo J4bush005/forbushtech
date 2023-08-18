@@ -8,7 +8,7 @@ import Elevate from "./Elevate";
 import Media from "react-media";
 
 const Container = styled.div`
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   scroll-snap-align: center;
 `;

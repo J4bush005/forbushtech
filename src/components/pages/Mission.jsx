@@ -35,7 +35,7 @@ const Mission = () => {
       </Media>
       <Media query="(min-width: 769px)">
         <div className="row">
-          <div className="col-6">
+          <div className="col-4  ">
             <Cube />
           </div>
           <h1 id="Heading" className="col-6 display-4">

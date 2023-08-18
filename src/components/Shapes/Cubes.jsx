@@ -6,7 +6,7 @@ import Boost from "./Boost";
 import Media from "react-media";
 
 const Container = styled.div`
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   scroll-snap-align: center;
   
@@ -32,7 +32,7 @@ function Cube() {
       </Media>
       <Media query="(min-width: 769px)">
         <Container>
-          <Canvas camera={{ fov: 40, position: [5, 5, 5] }}>
+          <Canvas camera={{ fov: 35, position: [5, 5, 5] }}>
             <OrbitControls enableZoom={false} autoRotate />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
