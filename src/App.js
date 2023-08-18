@@ -20,11 +20,13 @@ function App() {
 
   return (
     <div>
-    <Header />
+    <Container>
+    <Particle/>
         <Routes>
            <Route index element={<Open />} />
           <Route path="/Who" element={<Who />} />
         </Routes>
+        </Container>
     </div>
   );
 }
