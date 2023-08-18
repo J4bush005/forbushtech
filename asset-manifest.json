@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/forbushtech/static/css/main.c5e96921.css",
-    "main.js": "/forbushtech/static/js/main.37a2553e.js",
+    "main.js": "/forbushtech/static/js/main.985e6770.js",
     "static/js/787.5566da90.chunk.js": "/forbushtech/static/js/787.5566da90.chunk.js",
     "static/media/Logo.svg": "/forbushtech/static/media/Logo.7e5ad21355ca8c331aad840f493ec010.svg",
     "static/media/Color logo - no background.webp": "/forbushtech/static/media/Color logo - no background.0a98299b93b6fbf09eed.webp",
     "static/media/F.webp": "/forbushtech/static/media/F.2be3741870a0406690b0.webp",
     "index.html": "/forbushtech/index.html",
     "main.c5e96921.css.map": "/forbushtech/static/css/main.c5e96921.css.map",
-    "main.37a2553e.js.map": "/forbushtech/static/js/main.37a2553e.js.map",
+    "main.985e6770.js.map": "/forbushtech/static/js/main.985e6770.js.map",
     "787.5566da90.chunk.js.map": "/forbushtech/static/js/787.5566da90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5e96921.css",
-    "static/js/main.37a2553e.js"
+    "static/js/main.985e6770.js"
   ]
 }
