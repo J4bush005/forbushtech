@@ -56,7 +56,7 @@ const Who = () => {
                 className="d-flex justify-content-center align-items-center"
               >
                 <div className="row">
-                  <div className="col-12">
+                  <div className="col">
                     <Shpere />
 
                     <Img id="open-logo" src={Color} className="img-fluid" />
