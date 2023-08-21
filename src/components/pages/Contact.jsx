@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Cubed from "../Shapes/Cubed";
 import Media from "react-media";
 
-const Contact = () => {
+const Contact = ({addTask}) => {
   const form = useRef();
+  const [taskInp, setTaskInp] = useState("")
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,12 +20,16 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Your Message Has Been Sent");
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
+
+
   return (
     <div className="container-fluid">
       <Media query="(max-width: 768px)">
