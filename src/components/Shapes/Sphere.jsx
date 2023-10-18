@@ -39,7 +39,7 @@ const WaveShaderMaterial = shaderMaterial(
 
     void main() {
       vec3 texture = texture2D(uTexture, vUv).rgb;
-        gl_FragColor = vec4(vUv.y * uColor, 0.01);
+        gl_FragColor = vec4(vUv.y  * uColor, 0.01);
     }
     `
 );
