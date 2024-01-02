@@ -9,6 +9,7 @@ import Color from "../images/Color logo - no background.webp";
 import Projects from "./Projects";
 import Shpere from "../Shapes/Sphere";
 import Media from "react-media";
+import Do from "./Do";
 
 const Section = styled.div`
   height: 100vh;
@@ -116,7 +117,7 @@ const Who = () => {
             <Projects />
           </Sectionss>
           <Sections>
-            <Contact />
+            <Do/>
           </Sections>
           </>
           </Media>

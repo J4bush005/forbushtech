@@ -80,13 +80,10 @@ const Contact = () => {
       </Media>
 
       <Media query="(min-width: 769px)">
-      <div className="row">
-        <div className="col-6">
-          <Cubed />
-        </div>
-        <div id="format" className="col-6">
+      <div className="container-fluid">
+        <div id="format" className="">
         <form ref={form} onSubmit={sendEmail}>
-            <div className="row g-3 d-flex mt-5">
+            <div className="row g-3 d-flex mt-5 justify-content-center">
               <div className="col-6">
                 <label className="form-label topper">Name:</label>
                 <input
@@ -97,7 +94,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="row g-3 d-flex">
+            <div className="row g-3 d-flex justify-content-center">
               <div className="col-6">
                 <label className="form-label topper">Email:</label>
                 <input
@@ -108,7 +105,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="row g-3 d-flex">
+            <div className="row g-3 d-flex justify-content-center">
               <div className="col-6">
                 <label className="form-label topper">Phone Number:</label>
                 <input
@@ -119,7 +116,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="row g-3 d-flex">
+            <div className="row g-3 d-flex justify-content-center">
               <div className="col-6">
                 <label className="form-label topper">Message:</label>
                 <textarea name="message" className="form-control" required />
