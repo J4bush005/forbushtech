@@ -28,7 +28,7 @@ const Sectionss = styled.div`
   scroll-snap-align: start;
 `;
 const Sectionsss = styled.div`
-  height: 40vh;
+  height: 80vh;
   scroll-snap-align: start;
 `;
 const Img = styled.img`
@@ -58,75 +58,82 @@ const Who = () => {
         <>
           <Media query="(max-width: 768px)">
             <>
-            <Section>
-              <Header />
-              <section
-                id="open-heading"
-                className="d-flex justify-content-center align-items-center"
-              >
-                <div className="row">
-                  <div className="col">
-                    <Shpere />
+              <Section>
+                <Header />
+                <section
+                  id="open-heading"
+                  className="d-flex justify-content-center align-items-center"
+                >
+                  <div className="row">
+                    <div className="col">
+                      <Shpere />
 
-                    <Img id="open-logo-sm" src={Color} className="img-fluid" />
-                    <div
-                      id="slogan"
-                      className="row d-flex justify-content-center"
-                      style={{fontSize: "x-large"}}
-                    >
-                      Innovate. Transform. Elevate.
+                      <Img
+                        id="open-logo-sm"
+                        src={Color}
+                        className="img-fluid"
+                      />
+                      <div
+                        id="slogan"
+                        className="row d-flex justify-content-center"
+                        style={{ fontSize: "x-large" }}
+                      >
+                        Innovate. Transform. Elevate.
+                      </div>
                     </div>
                   </div>
-                </div>
-              </section>
-            </Section>
-            <Section>
-            <Mission />
-          </Section>
-          <Section>
-            <Projects />
-          </Section>
-          <Sections>
-            <Contact />
-          </Sections>
-          </>
+                </section>
+              </Section>
+              <Section>
+                <Mission />
+              </Section>
+              <Section>
+                <Projects />
+              </Section>
+              <Sections>
+                <Do />
+              </Sections>
+              <Sectionsss>
+                <Contact />
+              </Sectionsss>
+            </>
           </Media>
           <Media query="(min-width: 769px)">
             <>
-            <Sectioned>
-             <Header/>
-              <section
-                id="open-heading"
-                className="d-flex justify-content-center align-items-center"
-              >
-                <div className="row">
-                  <div className="col-12">
-                    <Shpere />
+              <Sectioned>
+                <Header />
+                <section
+                  id="open-heading"
+                  className="d-flex justify-content-center align-items-center"
+                >
+                  <div className="row">
+                    <div className="col-12">
+                      <Shpere />
 
-                    <Img id="open-logo" src={Color} className="img-fluid" />
-                    <div
-                      id="slogan"
-                      className="row d-flex justify-content-center"
-                    >
-                      Innovate. Transform. Elevate.
+                      <Img id="open-logo" src={Color} className="img-fluid" />
+                      <div
+                        id="slogan"
+                        className="row d-flex justify-content-center"
+                      >
+                        Innovate. Transform. Elevate.
+                      </div>
                     </div>
                   </div>
-                </div>
-              </section>
-            </Sectioned>
-            <Sectionss>
-            <Mission />
-          </Sectionss>
-          <Sectionss>
-            <Projects />
-          </Sectionss>
-          <Sections>
-            <Do/>
-          </Sections>
-          <Sectionsss>
-            <Contact />
-          </Sectionsss>
-          </>
+                </section>
+              </Sectioned>
+              <Sectionss>
+                <Mission />
+              </Sectionss>
+              <Sectionss>
+                <Projects />
+              </Sectionss>
+              <Sections>
+                <Do />
+              </Sections>
+              <Sectionsss>
+                <Contact />
+              </Sectionsss>
+            </>
           </Media>
           <Particle />
         </>
