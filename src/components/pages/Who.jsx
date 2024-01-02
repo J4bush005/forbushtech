@@ -64,7 +64,7 @@ const Who = () => {
                   <div className="col">
                     <Shpere />
 
-                    <Img id="open-logo-sm" src={Color} className="" />
+                    <Img id="open-logo-sm" src={Color} className="img-fluid" />
                     <div
                       id="slogan"
                       className="row d-flex justify-content-center"
