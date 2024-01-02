@@ -20,11 +20,15 @@ const Sectioned = styled.div`
   scroll-snap-align: start;
 `;
 const Sections = styled.div`
-  height: 150vh;
+  height: 80vh;
   scroll-snap-align: start;
 `;
 const Sectionss = styled.div`
   height: 70vh;
+  scroll-snap-align: start;
+`;
+const Sectionsss = styled.div`
+  height: 40vh;
   scroll-snap-align: start;
 `;
 const Img = styled.img`
@@ -119,6 +123,9 @@ const Who = () => {
           <Sections>
             <Do/>
           </Sections>
+          <Sectionsss>
+            <Contact />
+          </Sectionsss>
           </>
           </Media>
           <Particle />
